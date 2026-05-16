@@ -77,7 +77,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ["https://sop-khaki.vercel.app", "http://localhost:3000"]
+  origin: ["https://school-frontend-hazel.vercel.app", "http://localhost:3000"]
 }));
 app.use(express.json());
 
